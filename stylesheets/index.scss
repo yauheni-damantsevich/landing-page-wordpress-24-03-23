@@ -494,6 +494,19 @@ table {
   line-height: 1.042vw;
   color: #2e2e2e;
   margin: 0 0 4.844vw 0;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: #ffe588;
+  color: #2e2e2e;
+  border: none;
+}
+
+.primary-button:active {
+  background: #2e2e2e;
+  color: #ffffff;
+  border: none;
 }
 
 .primary-button::after {
@@ -567,10 +580,15 @@ h2 {
     .wrapper {
       border: 1px solid #2e2e2e;
       border-radius: 100%;
+      cursor: pointer;
 
       img {
         padding: 1.094vw;
       }
+    }
+    .wrapper:hover {
+      background: #ffe588;
+      border: none;
     }
   }
 }
@@ -910,6 +928,17 @@ h2 {
   color: #ffffff;
 }
 
+.secondary-button:hover {
+  background: #ffe588;
+  color: #2e2e2e;
+  border: none;
+}
+
+.secondary-button:active {
+  background: none;
+  border: 1px solid #2e2e2e;
+  color: #2e2e2e;
+}
 .secondary-button::after {
   content: "";
   position: absolute;
