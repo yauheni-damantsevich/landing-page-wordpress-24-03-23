@@ -898,8 +898,22 @@ h2 {
   display: flex;
   gap: 5.208vw;
 }
+.section4-wrapper .wrapper li.active {
+  position: relative;
+}
+.section4-wrapper .wrapper li.active::after {
+  content: "";
+  position: absolute;
+  width: 0.625vw;
+  height: 1px;
+  background: #2e2e2e;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+}
 .section4-wrapper .wrapper .tabs {
   position: relative;
+  padding: 0 0 0 30px;
 }
 .section4-wrapper .wrapper .tabs::after {
   content: "";
@@ -916,10 +930,10 @@ h2 {
 .section4-wrapper li:first-child {
   margin: 0 0 1.25vw 0;
 }
-.section4-wrapper .bold-list-wrapper {
+.section4-wrapper li:nth-child(5) {
   margin: 0 0 2.083vw 0;
 }
-.section4-wrapper .bold-list-wrapper .bold-list-item {
+.section4-wrapper .bold-list-item {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;

@@ -654,8 +654,24 @@ h2 {
     display: flex;
     gap: 5.208vw;
 
+    li.active {
+      position: relative;
+    }
+
+    li.active::after {
+      content: "";
+      position: absolute;
+      width: 0.625vw;
+      height: 1px;
+      background: #2e2e2e;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -30px;
+    }
+
     .tabs {
       position: relative;
+      padding: 0 0 0 30px;
     }
 
     .tabs::after {
@@ -676,17 +692,18 @@ h2 {
   li:first-child {
     margin: 0 0 1.25vw 0;
   }
-  .bold-list-wrapper {
-    margin: 0 0 2.083vw 0;
 
-    .bold-list-item {
-      font-family: "Gilroy";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 1.042vw;
-      line-height: 1.25vw;
-      color: #2e2e2e;
-    }
+  li:nth-child(5) {
+    margin: 0 0 2.083vw 0;
+  }
+
+  .bold-list-item {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.042vw;
+    line-height: 1.25vw;
+    color: #2e2e2e;
   }
 
   .default-list-item {
