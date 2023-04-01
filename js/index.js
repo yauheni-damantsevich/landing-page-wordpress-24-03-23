@@ -7,6 +7,17 @@ const swiper1 = new Swiper(".swiper1", {
     nextEl: ".swiper-button-next1",
     prevEl: ".swiper-button-prev1",
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 const swiper2 = new Swiper(".swiper2", {
@@ -16,14 +27,37 @@ const swiper2 = new Swiper(".swiper2", {
     nextEl: ".swiper-button-next2",
     prevEl: ".swiper-button-prev2",
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 const swiper3 = new Swiper(".swiper3", {
   slidesPerView: 2,
   loop: true,
+  spaceBetween: 20,
   navigation: {
     nextEl: ".swiper-button-next3",
     prevEl: ".swiper-button-prev3",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
   },
 });
 
@@ -169,3 +203,9 @@ function postRequest(event) {
 }
 
 function showMessage() {}
+
+// fetch page for section 2
+
+let section2Placeholder = document.querySelector(
+  ".section2-wrapper .description-wrapper"
+);
