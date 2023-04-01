@@ -84,6 +84,7 @@ window.addEventListener("load", () => {
     tabs[i].addEventListener("click", tabClicks);
   }
   addEvents();
+  getDataForSection2Placeholder();
 });
 
 // Videos
@@ -209,3 +210,15 @@ function showMessage() {}
 let section2Placeholder = document.querySelector(
   ".section2-wrapper .description-wrapper"
 );
+
+function getDataForSection2Placeholder() {
+  fetch("https://dev-27-03-front-end.pantheonsite.io/wp-json/wp/v2/pages/9")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      let title = document.createElement("h2");
+      title.textContent = data.title.rendered;
+      section2Placeholder.innerHTML = data.content.rendered;
+      section2Placeholder.prepend(title);
+    });
+}

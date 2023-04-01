@@ -822,7 +822,7 @@ h2 {
   flex-direction: column;
   gap: 2.083vw;
 }
-.section2-wrapper .description-wrapper .description {
+.section2-wrapper .description-wrapper p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
@@ -1695,7 +1695,7 @@ video {
     flex-direction: column;
     gap: 5.208vw;
   }
-  .section2-wrapper .description-wrapper .description {
+  .section2-wrapper .description-wrapper p {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 300;
@@ -2556,7 +2556,7 @@ video {
     flex-direction: column;
     gap: 39.994px;
   }
-  .section2-wrapper .description-wrapper .description {
+  .section2-wrapper .description-wrapper p {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 300;
