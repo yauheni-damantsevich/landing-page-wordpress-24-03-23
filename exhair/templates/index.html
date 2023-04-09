@@ -4,8 +4,74 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Title</title>
-    <link rel="stylesheet" href="./stylesheets/index.css" />
-    <script type="module" src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+
+      const swiper1 = new Swiper(".swiper1", {
+        slidesPerView: 4,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      const swiper2 = new Swiper(".swiper2", {
+        slidesPerView: 4,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next2",
+          prevEl: ".swiper-button-prev2",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      const swiper3 = new Swiper(".swiper3", {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next3",
+          prevEl: ".swiper-button-prev3",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -13,7 +79,10 @@
         <div class="header-wrapper">
           <div class="header-left-wrapper">
             <a href="#">
-              <img src="./assets/logo.svg" alt="Logo" />
+              <img
+                src="/wp-content/themes/exhair/templates/assets/logo.svg"
+                alt="Logo"
+              />
             </a>
             <nav>
               <ul>
@@ -27,7 +96,11 @@
           </div>
           <div class="header-right-wrapper">
             <a href="tel:995551001741"
-              ><img src="./assets/call.svg" alt="Call" /> +995 551 001 741</a
+              ><img
+                src="/wp-content/themes/exhair/templates/assets/call.svg"
+                alt="Call"
+              />
+              +995 551 001 741</a
             >
             <button>RU</button>
           </div>
@@ -40,17 +113,27 @@
           <div class="section1-wrapper">
             <div class="instagram">
               <a href="#">
-                <img src="./assets/instagram.svg" alt="Instagram" />
+                <img
+                  src="/wp-content/themes/exhair/templates/assets/instagram.svg"
+                  alt="Instagram"
+                />
               </a>
               <span>I N S T A</span>
-              <img src="./assets/mouse.svg" alt="Scroll" />
+              <img
+                src="/wp-content/themes/exhair/templates/assets/mouse.svg"
+                alt="Scroll"
+              />
             </div>
             <div class="wrapper-column">
               <p class="first-description">Наращивание волос в Батуми</p>
-              <img class="first-image" src="./assets/EXHAIR.svg" alt="EXHAIR" />
+              <img
+                class="first-image"
+                src="/wp-content/themes/exhair/templates/assets/EXHAIR.svg"
+                alt="EXHAIR"
+              />
               <img
                 class="second-image"
-                src="./assets/49169caf451c31bc3c232bf5fcc24bf8 1.png"
+                src="/wp-content/themes/exhair/templates/assets/49169caf451c31bc3c232bf5fcc24bf8 1.png"
                 alt="Image"
               />
               <p class="second-description">
@@ -66,13 +149,19 @@
       <section>
         <div class="container">
           <div class="section2-wrapper">
-            <img src="./assets/studio.png" alt="Studio" />
+            <img
+              src="/wp-content/themes/exhair/templates/assets/studio.png"
+              alt="Studio"
+            />
             <div class="wrapper-column">
               <div class="description-wrapper"></div>
               <button class="video-button">
                 <p>Посмотрите видео о нашем салоне</p>
                 <div class="wrapper">
-                  <img src="./assets/play.svg" alt="Play" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/play.svg"
+                    alt="Play"
+                  />
                 </div>
               </button>
             </div>
@@ -162,7 +251,10 @@
                     <span>Стоимость от 900 лари</span>
                     <button class="primary-button">Консультация</button>
                   </div>
-                  <img src="./assets/hair.png" alt="Hair" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/hair.png"
+                    alt="Hair"
+                  />
                 </div>
                 <div id="tab-2" class="tabs-content-item">
                   <div class="wrapper">
@@ -177,7 +269,10 @@
                     <span>Стоимость от 900 лари</span>
                     <button class="primary-button">Записаться</button>
                   </div>
-                  <img src="./assets/hair-2.png" alt="Hair" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/hair-2.png"
+                    alt="Hair"
+                  />
                 </div>
               </div>
             </div>
@@ -191,7 +286,10 @@
             <div class="swiper swiper1">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./assets/master-1.png" alt="Master-1" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-1.png"
+                    alt="Master-1"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Евгения</h3>
                     <p>Топ-мастер</p>
@@ -199,7 +297,10 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./assets/master-2.png" alt="Master-2" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-2.png"
+                    alt="Master-2"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Анастасия</h3>
                     <p>Топ-мастер</p>
@@ -207,7 +308,10 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./assets/master-1.png" alt="Master-1" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-1.png"
+                    alt="Master-3"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Евгения</h3>
                     <p>Топ-мастер</p>
@@ -215,7 +319,10 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./assets/master-2.png" alt="Master-2" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-2.png"
+                    alt="Master-4"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Анастасия</h3>
                     <p>Топ-мастер</p>
@@ -223,7 +330,10 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./assets/master-1.png" alt="Master-1" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-1.png"
+                    alt="Master-5"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Евгения</h3>
                     <p>Топ-мастер</p>
@@ -231,7 +341,10 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./assets/master-2.png" alt="Master-2" />
+                  <img
+                    src="/wp-content/themes/exhair/templates/assets/master-2.png"
+                    alt="Master-6"
+                  />
                   <div class="swiper-slide-wrapper">
                     <h3>Евгения</h3>
                     <p>Топ-мастер</p>
@@ -243,10 +356,16 @@
           </div>
         </div>
         <div class="swiper-button-prev1">
-          <img src="./assets/arrow-left.svg" alt="Left" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-left.svg"
+            alt="Left"
+          />
         </div>
         <div class="swiper-button-next1">
-          <img src="./assets/arrow-right.svg" alt="Right" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-right.svg"
+            alt="Right"
+          />
         </div>
       </section>
       <section>
@@ -272,13 +391,18 @@
             <h2>Наши работы</h2>
             <div class="wrapper">
               <p>Больше работ смотрите в нашем <a href="#">Instagram</a></p>
-              <img src="./assets/instagram.svg" />
+              <img
+                src="/wp-content/themes/exhair/templates/assets/instagram.svg"
+              />
             </div>
             <div class="swiper swiper2">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <video id="1">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -300,7 +424,10 @@
                 </div>
                 <div class="swiper-slide">
                   <video id="2">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -322,7 +449,10 @@
                 </div>
                 <div class="swiper-slide">
                   <video id="3">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -344,7 +474,10 @@
                 </div>
                 <div class="swiper-slide">
                   <video id="4">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -366,7 +499,10 @@
                 </div>
                 <div class="swiper-slide">
                   <video id="5">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -388,7 +524,10 @@
                 </div>
                 <div class="swiper-slide">
                   <video id="6">
-                    <source src="./assets/video-1.mp4" type="video/mp4" />
+                    <source
+                      src="/wp-content/themes/exhair/templates/assets/video-1.mp4"
+                      type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                   </video>
                   <div id="video-controls" class="controls" data-state="hidden">
@@ -413,10 +552,16 @@
           </div>
         </div>
         <div class="swiper-button-prev2">
-          <img src="./assets/arrow-left.svg" alt="Left" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-left.svg"
+            alt="Left"
+          />
         </div>
         <div class="swiper-button-next2">
-          <img src="./assets/arrow-right.svg" alt="Right" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-right.svg"
+            alt="Right"
+          />
         </div>
       </section>
       <section class="swiper-anchor">
@@ -428,7 +573,10 @@
                 <div class="swiper-slide">
                   <div class="swiper-slide-wrapper">
                     <div class="wrapper">
-                      <img src="./assets/avatar-1.png" alt="Avatar" />
+                      <img
+                        src="/wp-content/themes/exhair/templates/assets/avatar-1.png"
+                        alt="Avatar"
+                      />
                       <span>Елена</span>
                     </div>
                     <p>
@@ -447,7 +595,10 @@
                 <div class="swiper-slide">
                   <div class="swiper-slide-wrapper">
                     <div class="wrapper">
-                      <img src="./assets/avatar-2.png" alt="Avatar" />
+                      <img
+                        src="/wp-content/themes/exhair/templates/assets/avatar-2.png"
+                        alt="Avatar"
+                      />
                       <span>Татьяна</span>
                     </div>
                     <p>
@@ -465,7 +616,10 @@
                 <div class="swiper-slide">
                   <div class="swiper-slide-wrapper">
                     <div class="wrapper">
-                      <img src="./assets/avatar-1.png" alt="Avatar" />
+                      <img
+                        src="/wp-content/themes/exhair/templates/assets/avatar-1.png"
+                        alt="Avatar"
+                      />
                       <span>Елена</span>
                     </div>
                     <p>
@@ -484,7 +638,10 @@
                 <div class="swiper-slide">
                   <div class="swiper-slide-wrapper">
                     <div class="wrapper">
-                      <img src="./assets/avatar-2.png" alt="Avatar" />
+                      <img
+                        src="/wp-content/themes/exhair/templates/assets/avatar-2.png"
+                        alt="Avatar"
+                      />
                       <span>Татьяна</span>
                     </div>
                     <p>
@@ -504,10 +661,16 @@
           </div>
         </div>
         <div class="swiper-button-prev3">
-          <img src="./assets/arrow-left.svg" alt="Left" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-left.svg"
+            alt="Left"
+          />
         </div>
         <div class="swiper-button-next3">
-          <img src="./assets/arrow-right.svg" alt="Right" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/arrow-right.svg"
+            alt="Right"
+          />
         </div>
       </section>
       <section>
@@ -545,7 +708,10 @@
     <footer>
       <div class="container">
         <div class="footer-wrapper">
-          <img src="./assets/SOUL.svg" alt="Soul" />
+          <img
+            src="/wp-content/themes/exhair/templates/assets/SOUL.svg"
+            alt="Soul"
+          />
           <ul>
             <li>
               <a href="#">О нас</a>
