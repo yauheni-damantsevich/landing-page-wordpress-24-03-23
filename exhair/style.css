@@ -832,13 +832,13 @@ table {
 .primary-button:hover {
   background: #ffe588;
   color: #2e2e2e;
-  border: none;
+  border: 1px solid #ffe588;
 }
 
 .primary-button:active {
   background: #2e2e2e;
   color: #ffffff;
-  border: none;
+  border: 1px solid #2e2e2e;
 }
 
 .primary-button::after {
@@ -1317,13 +1317,15 @@ video {
   -webkit-backdrop-filter: blur(3.5px);
   backdrop-filter: blur(3.5px);
   border: none;
-  padding: 1.563vw 1.667vw;
+  padding: 1.563vw 1.563vw 1.563vw 2.083vw;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
 .play img {
+  width: 2.5vw;
+  height: 2.917vw;
   align-self: center;
 }
 
@@ -1758,12 +1760,12 @@ video {
   .primary-button:hover {
     background: #ffe588;
     color: #2e2e2e;
-    border: none;
+    border: 1px solid #ffe588;
   }
   .primary-button:active {
     background: #2e2e2e;
     color: #ffffff;
-    border: none;
+    border: 1px solid #2e2e2e;
   }
   .primary-button::after {
     content: "";
@@ -2228,13 +2230,15 @@ video {
     -webkit-backdrop-filter: blur(3.5px);
     backdrop-filter: blur(3.5px);
     border: none;
-    padding: 3.908vw 4.167vw;
+    padding: 3.908vw 3.908vw 3.908vw 4.167vw;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     cursor: pointer;
   }
   .play img {
+    width: 6.25vw;
+    height: 7.292vw;
     align-self: center;
   }
   .play:hover {
@@ -2396,37 +2400,42 @@ video {
   }
   .popup-container .popup {
     position: relative;
-    margin: 334.003px auto;
+    margin: 22.135vw auto;
     width: 50vw;
-    height: 411.994px;
+    height: 88.802vw;
     background: #eae1d7;
   }
   .popup-container .popup .close-button {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 3.125vw;
+    right: 3.125vw;
     background: none;
     border: none;
   }
   .popup-container .popup h2 {
-    padding: 99.994px 99.994px 24px 99.994px;
+    padding: 13.02vw 13.02vw 3.125vw 13.02vw;
   }
   .popup-container .popup p {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 600;
-    font-size: 20.006px;
-    line-height: 24px;
+    font-size: 2.605vw;
+    line-height: 3.125vw;
     color: #2e2e2e;
-    padding: 0 99.994px 49.997px 99.994px;
+    padding: 0 13.02vw 6.51vw 13.02vw;
   }
   .popup-container .popup form {
     display: flex;
-    gap: 24px;
-    margin: 0 168px 0 99.994px;
+    flex-direction: column;
+    gap: 3.125vw;
+    margin: 0 13.021vw;
+
+    .secondary-button::after {
+      display: none;
+    }
   }
   .popup-container .popup form input {
-    width: 100%;
-    padding: 24px 20.006px;
+    width: auto;
+    padding: 3.125vw 2.605vw;
   }
 } /*# sourceMappingURL=index.css.map */
