@@ -79,7 +79,7 @@ window.addEventListener("load", () => {
     closeButton.classList.add("close-button");
     popup.append(closeButton);
     let img = document.createElement("img");
-    img.src = "./assets/close.svg";
+    img.src = "/wp-content/themes/exhair/assets/close.svg";
     img.alt = "Close";
     closeButton.append(img);
     let title = document.createElement("h2");
@@ -145,23 +145,3 @@ window.addEventListener("load", () => {
 });
 
 function showMessage() {}
-
-// fetch page for section 2
-
-// window.addEventListener("load", () => {
-//   function getDataForSection2Placeholder() {
-//     fetch("https://dev-27-03-front-end.pantheonsite.io/wp-json/wp/v2/pages/9")
-//       .then((response) => response.json())
-//       .then((data) => {
-//         console.log(data);
-//         const section2Placeholder = document.querySelector(
-//           ".section2-wrapper .description-wrapper"
-//         );
-//         let title = document.createElement("h2");
-//         title.textContent = data.title.rendered;
-//         section2Placeholder.innerHTML = data.content.rendered;
-//         section2Placeholder.prepend(title);
-//       });
-//   }
-//   getDataForSection2Placeholder();
-// });
