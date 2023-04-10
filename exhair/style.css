@@ -1,3 +1,17 @@
+/*
+Theme Name: exhair
+Theme URI:
+Author: Root
+Author URI:
+Version: 1.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License:
+License URI:
+Text Domain: exhair
+*/
+
 /**
  * Swiper 9.1.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -335,7 +349,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 400;
   src: local("Gilroy-UltraLightItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-ultralightitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-ultralightitalic.woff2) format("woff2");
 }
 /* gilroy-ultralight */
 @font-face {
@@ -343,7 +357,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 400;
   src: local("Gilroy-UltraLight"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-ultralight.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-ultralight.woff2) format("woff2");
 }
 /* gilroy-thinitalic */
 @font-face {
@@ -351,7 +365,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 100;
   src: local("Gilroy-ThinItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-thinitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-thinitalic.woff2) format("woff2");
 }
 /* gilroy-thin */
 @font-face {
@@ -359,7 +373,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 100;
   src: local("Gilroy-Thin"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-thin.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-thin.woff2) format("woff2");
 }
 /* gilroy-semibolditalic */
 @font-face {
@@ -367,7 +381,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 400;
   src: local("Gilroy-SemiBoldItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-semibolditalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-semibolditalic.woff2) format("woff2");
 }
 /* gilroy-semibold */
 @font-face {
@@ -375,7 +389,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 400;
   src: local("Gilroy-SemiBold"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-semibold.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-semibold.woff2) format("woff2");
 }
 /* gilroy-regularitalic */
 @font-face {
@@ -383,7 +397,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 400;
   src: local("Gilroy-RegularItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-regularitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-regularitalic.woff2) format("woff2");
 }
 /* gilroy-regular */
 @font-face {
@@ -391,7 +405,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 400;
   src: local("Gilroy-Regular"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-regular.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-regular.woff2) format("woff2");
 }
 /* gilroy-mediumitalic */
 @font-face {
@@ -399,7 +413,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 500;
   src: local("Gilroy-MediumItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-mediumitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-mediumitalic.woff2) format("woff2");
 }
 /* gilroy-medium */
 @font-face {
@@ -407,7 +421,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 500;
   src: local("Gilroy-Medium"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-medium.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-medium.woff2) format("woff2");
 }
 /* gilroy-lightitalic */
 @font-face {
@@ -415,7 +429,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 300;
   src: local("Gilroy-LightItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-lightitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-lightitalic.woff2) format("woff2");
 }
 /* gilroy-light */
 @font-face {
@@ -423,7 +437,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 300;
   src: local("Gilroy-Light"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-light.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-light.woff2) format("woff2");
 }
 /* gilroy-heavyitalic */
 @font-face {
@@ -431,7 +445,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 400;
   src: local("Gilroy-HeavyItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-heavyitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-heavyitalic.woff2) format("woff2");
 }
 /* gilroy-heavy */
 @font-face {
@@ -439,7 +453,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 400;
   src: local("Gilroy-Heavy"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-heavy.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-heavy.woff2) format("woff2");
 }
 /* gilroy-extrabolditalic */
 @font-face {
@@ -447,7 +461,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 400;
   src: local("Gilroy-ExtraBoldItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-extrabolditalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-extrabolditalic.woff2) format("woff2");
 }
 /* gilroy-extrabold */
 @font-face {
@@ -455,7 +469,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 400;
   src: local("Gilroy-ExtraBold"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-extrabold.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-extrabold.woff2) format("woff2");
 }
 /* gilroy-bolditalic */
 @font-face {
@@ -463,7 +477,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 700;
   src: local("Gilroy-BoldItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-bolditalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-bolditalic.woff2) format("woff2");
 }
 /* gilroy-bold */
 @font-face {
@@ -471,7 +485,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 700;
   src: local("Gilroy-Bold"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-bold.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-bold.woff2) format("woff2");
 }
 /* gilroy-blackitalic */
 @font-face {
@@ -479,7 +493,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: italic;
   font-weight: 900;
   src: local("Gilroy-BlackItalic"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-blackitalic.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-blackitalic.woff2) format("woff2");
 }
 /* gilroy-black */
 @font-face {
@@ -487,7 +501,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   font-style: normal;
   font-weight: 900;
   src: local("Gilroy-Black"),
-    url(/wp-content/themes/exhair/templates/assets/fonts/gilroy-black.woff2) format("woff2");
+    url(/wp-content/themes/exhair/assets/fonts/gilroy-black.woff2) format("woff2");
 }
 html,
 body,

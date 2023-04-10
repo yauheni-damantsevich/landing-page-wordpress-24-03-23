@@ -79,7 +79,7 @@
       <div class="header-wrapper">
         <div class="header-left-wrapper">
           <a href="#">
-            <img src="/wp-content/themes/exhair/templates/assets/logo.svg" alt="Logo" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" alt="Logo" />
           </a>
           <nav>
             <ul>
@@ -92,7 +92,7 @@
           </nav>
         </div>
         <div class="header-right-wrapper">
-          <a href="tel:995551001741"><img src="/wp-content/themes/exhair/templates/assets/call.svg" alt="Call" />
+          <a href="tel:995551001741"><img src="<?php echo get_template_directory_uri(); ?>/assets/call.svg" alt="Call" />
             +995 551 001 741</a>
           <button>RU</button>
         </div>
@@ -105,15 +105,15 @@
         <div class="section1-wrapper">
           <div class="instagram">
             <a href="#">
-              <img src="/wp-content/themes/exhair/templates/assets/instagram.svg" alt="Instagram" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" alt="Instagram" />
             </a>
             <span>I N S T A</span>
-            <img src="/wp-content/themes/exhair/templates/assets/mouse.svg" alt="Scroll" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/mouse.svg" alt="Scroll" />
           </div>
           <div class="wrapper-column">
             <p class="first-description">Наращивание волос в Батуми</p>
-            <img class="first-image" src="/wp-content/themes/exhair/templates/assets/EXHAIR.svg" alt="EXHAIR" />
-            <img class="second-image" src="/wp-content/themes/exhair/templates/assets/49169caf451c31bc3c232bf5fcc24bf8 1.png" alt="Image" />
+            <img class="first-image" src="<?php echo get_template_directory_uri(); ?>/assets/EXHAIR.svg" alt="EXHAIR" />
+            <img class="second-image" src="<?php echo get_template_directory_uri(); ?>/assets/49169caf451c31bc3c232bf5fcc24bf8 1.png" alt="Image" />
             <p class="second-description">
               Воплощаем мечты о шикарных волосах<br />
               в реальность
@@ -127,16 +127,16 @@
     <section>
       <div class="container">
         <div class="section2-wrapper">
-          <img src="/wp-content/themes/exhair/templates/assets/studio.png" alt="Studio" />
+          <img src="<?php echo get_field("image", 6) ?>" alt="Studio" />
           <div class="wrapper-column">
             <div class="description-wrapper">
-              <h2><?php echo get_post_field("post_title", 6); ?></h2>
-              <?php echo get_post_field("post_content", 6); ?>
+              <h2><?php echo get_field("title", 6) ?></h2>
+              <p><?php echo get_field("description", 6) ?></p>
             </div>
             <button class="video-button">
               <p>Посмотрите видео о нашем салоне</p>
               <div class="wrapper">
-                <img src="/wp-content/themes/exhair/templates/assets/play.svg" alt="Play" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/play.svg" alt="Play" />
               </div>
             </button>
           </div>
@@ -185,7 +185,7 @@
                   <span><?php echo get_field("price", 19) ?></span>
                   <button class="primary-button"><?php echo get_field("button_text", 19) ?></button>
                 </div>
-                <img src="/wp-content/themes/exhair/templates/assets/hair.png" alt="Hair" />
+                <img src="<?php echo get_field("image", 19) ?>" alt="Hair" />
               </div>
               <div id="tab-2" class="tabs-content-item">
                 <div class="wrapper">
@@ -196,7 +196,7 @@
                   <span><?php echo get_field("price", 29) ?></span>
                   <button class="primary-button"><?php echo get_field("button_text", 29) ?></button>
                 </div>
-                <img src="/wp-content/themes/exhair/templates/assets/hair-2.png" alt="Hair" />
+                <img src="<?php echo get_field("image", 29) ?>" alt="Hair" />
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@
           <div class="swiper swiper1">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-1.png" alt="Master-1" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-1.png" alt="Master-1" />
                 <div class="swiper-slide-wrapper">
                   <h3>Евгения</h3>
                   <p>Топ-мастер</p>
@@ -218,7 +218,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-2.png" alt="Master-2" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-2.png" alt="Master-2" />
                 <div class="swiper-slide-wrapper">
                   <h3>Анастасия</h3>
                   <p>Топ-мастер</p>
@@ -226,7 +226,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-1.png" alt="Master-3" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-1.png" alt="Master-3" />
                 <div class="swiper-slide-wrapper">
                   <h3>Евгения</h3>
                   <p>Топ-мастер</p>
@@ -234,7 +234,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-2.png" alt="Master-4" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-2.png" alt="Master-4" />
                 <div class="swiper-slide-wrapper">
                   <h3>Анастасия</h3>
                   <p>Топ-мастер</p>
@@ -242,7 +242,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-1.png" alt="Master-5" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-1.png" alt="Master-5" />
                 <div class="swiper-slide-wrapper">
                   <h3>Евгения</h3>
                   <p>Топ-мастер</p>
@@ -250,7 +250,7 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="/wp-content/themes/exhair/templates/assets/master-2.png" alt="Master-6" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/master-2.png" alt="Master-6" />
                 <div class="swiper-slide-wrapper">
                   <h3>Евгения</h3>
                   <p>Топ-мастер</p>
@@ -262,10 +262,10 @@
         </div>
       </div>
       <div class="swiper-button-prev1">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-left.svg" alt="Left" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-left.svg" alt="Left" />
       </div>
       <div class="swiper-button-next1">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-right.svg" alt="Right" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-right.svg" alt="Right" />
       </div>
     </section>
     <section>
@@ -291,13 +291,13 @@
           <h2>Наши работы</h2>
           <div class="wrapper">
             <p>Больше работ смотрите в нашем <a href="#">Instagram</a></p>
-            <img src="/wp-content/themes/exhair/templates/assets/instagram.svg" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" />
           </div>
           <div class="swiper swiper2">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <video id="1">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -310,7 +310,7 @@
               </div>
               <div class="swiper-slide">
                 <video id="2">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -323,7 +323,7 @@
               </div>
               <div class="swiper-slide">
                 <video id="3">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -336,7 +336,7 @@
               </div>
               <div class="swiper-slide">
                 <video id="4">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -349,7 +349,7 @@
               </div>
               <div class="swiper-slide">
                 <video id="5">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -362,7 +362,7 @@
               </div>
               <div class="swiper-slide">
                 <video id="6">
-                  <source src="/wp-content/themes/exhair/templates/assets/video-1.mp4" type="video/mp4" />
+                  <source src="<?php echo get_template_directory_uri(); ?>/assets/video-1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div id="video-controls" class="controls" data-state="hidden">
@@ -378,10 +378,10 @@
         </div>
       </div>
       <div class="swiper-button-prev2">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-left.svg" alt="Left" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-left.svg" alt="Left" />
       </div>
       <div class="swiper-button-next2">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-right.svg" alt="Right" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-right.svg" alt="Right" />
       </div>
     </section>
     <section class="swiper-anchor">
@@ -393,7 +393,7 @@
               <div class="swiper-slide">
                 <div class="swiper-slide-wrapper">
                   <div class="wrapper">
-                    <img src="/wp-content/themes/exhair/templates/assets/avatar-1.png" alt="Avatar" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/avatar-1.png" alt="Avatar" />
                     <span>Елена</span>
                   </div>
                   <p>
@@ -412,7 +412,7 @@
               <div class="swiper-slide">
                 <div class="swiper-slide-wrapper">
                   <div class="wrapper">
-                    <img src="/wp-content/themes/exhair/templates/assets/avatar-2.png" alt="Avatar" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/avatar-2.png" alt="Avatar" />
                     <span>Татьяна</span>
                   </div>
                   <p>
@@ -430,7 +430,7 @@
               <div class="swiper-slide">
                 <div class="swiper-slide-wrapper">
                   <div class="wrapper">
-                    <img src="/wp-content/themes/exhair/templates/assets/avatar-1.png" alt="Avatar" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/avatar-1.png" alt="Avatar" />
                     <span>Елена</span>
                   </div>
                   <p>
@@ -449,7 +449,7 @@
               <div class="swiper-slide">
                 <div class="swiper-slide-wrapper">
                   <div class="wrapper">
-                    <img src="/wp-content/themes/exhair/templates/assets/avatar-2.png" alt="Avatar" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/avatar-2.png" alt="Avatar" />
                     <span>Татьяна</span>
                   </div>
                   <p>
@@ -469,10 +469,10 @@
         </div>
       </div>
       <div class="swiper-button-prev3">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-left.svg" alt="Left" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-left.svg" alt="Left" />
       </div>
       <div class="swiper-button-next3">
-        <img src="/wp-content/themes/exhair/templates/assets/arrow-right.svg" alt="Right" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/arrow-right.svg" alt="Right" />
       </div>
     </section>
     <section>
@@ -510,7 +510,7 @@
   <footer>
     <div class="container">
       <div class="footer-wrapper">
-        <img src="/wp-content/themes/exhair/templates/assets/SOUL.svg" alt="Soul" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/SOUL.svg" alt="Soul" />
         <ul>
           <li>
             <a href="#">О нас</a>
