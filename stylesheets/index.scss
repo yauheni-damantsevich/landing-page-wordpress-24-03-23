@@ -365,6 +365,9 @@ table {
       }
     }
   }
+  .header-wrapper-mobile {
+    display: none;
+  }
 }
 
 // Section 1
@@ -1281,6 +1284,62 @@ video {
     max-width: 203.645vw;
     margin: 0 auto;
     position: relative;
+
+    .header-wrapper-mobile {
+      display: flex;
+      justify-content: space-between;
+
+      .header-block-mobile {
+        display: flex;
+
+        .header-menu {
+          background: none;
+          border: none;
+          padding: 0 20px 0 30px;
+          align-self: center;
+        }
+        .logo {
+          align-self: center;
+          width: 104px;
+          height: 46px;
+          padding: 16px 0;
+        }
+
+        a {
+          display: flex;
+          text-decoration: none;
+
+          p {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #2e2e2e;
+            align-self: center;
+            text-decoration: none;
+          }
+
+          img {
+            align-self: center;
+          }
+        }
+
+        .language {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 20px;
+          text-decoration-line: underline;
+          color: #2e2e2e;
+          align-self: center;
+          background: none;
+          border: none;
+          padding: 0 30px 0 16px;
+        }
+      }
+    }
 
     .header-wrapper {
       display: none;

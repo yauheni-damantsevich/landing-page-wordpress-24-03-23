@@ -91,8 +91,7 @@ swiper-slide {
 
 .swiper-backface-hidden .swiper-slide {
   transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /* 3D Effects */
@@ -643,6 +642,9 @@ table {
   line-height: 1.042vw;
   text-decoration-line: underline;
   color: #ffffff;
+}
+.container .header-wrapper-mobile {
+  display: none;
 }
 
 .section1-wrapper {
@@ -1464,6 +1466,55 @@ video {
     max-width: 203.645vw;
     margin: 0 auto;
     position: relative;
+  }
+  .container .header-wrapper-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .header-wrapper-mobile .header-block-mobile {
+    display: flex;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .header-menu {
+    background: none;
+    border: none;
+    padding: 0 20px 0 30px;
+    align-self: center;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .logo {
+    align-self: center;
+    width: 104px;
+    height: 46px;
+    padding: 16px 0;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a {
+    display: flex;
+    text-decoration: none;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e2e2e;
+    align-self: center;
+    text-decoration: none;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a img {
+    align-self: center;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .language {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #2e2e2e;
+    align-self: center;
+    background: none;
+    border: none;
+    padding: 0 30px 0 16px;
   }
   .container .header-wrapper {
     display: none;
