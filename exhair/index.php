@@ -156,6 +156,7 @@
             />
             <div class="wrapper-column">
               <div class="description-wrapper">
+                <h2><?php echo get_post_field('post_title', 6); ?></h2>
                 <?php echo get_post_field('post_content', 6); ?>
               </div>
               <button class="video-button">
