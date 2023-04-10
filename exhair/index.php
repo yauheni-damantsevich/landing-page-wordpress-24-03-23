@@ -97,6 +97,22 @@
           <button>RU</button>
         </div>
       </div>
+      <div class="header-wrapper-mobile">
+        <div class="header-block-mobile">
+          <button class="header-menu">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/menu.svg" alt="Menu" />
+          </button>
+          <a href="#">
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" alt="Logo" />
+          </a>
+        </div>
+        <div class="header-block-mobile">
+          <a href="tel:995551001741"><img src="<?php echo get_template_directory_uri(); ?>/assets/call-black.svg" alt="Call" />
+            <p>+995 551 001 741</p>
+          </a>
+          <button class="language">RU</button>
+        </div>
+      </div>
     </div>
   </header>
   <main>

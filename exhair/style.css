@@ -700,7 +700,9 @@ table {
   text-decoration-line: underline;
   color: #ffffff;
 }
-
+.container .header-wrapper-mobile {
+  display: none;
+}
 .section1-wrapper {
   display: flex;
   margin: 0 0 5.208vw 0;
@@ -905,9 +907,12 @@ h2 {
   border: 1px solid #2e2e2e;
   border-radius: 100%;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 .section2-wrapper .video-button .wrapper img {
   padding: 1.094vw;
+  align-self: center;
 }
 .section2-wrapper .video-button .wrapper:hover {
   background: #ffe588;
@@ -1520,6 +1525,55 @@ video {
     margin: 0 auto;
     position: relative;
   }
+   .container .header-wrapper-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .header-wrapper-mobile .header-block-mobile {
+    display: flex;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .header-menu {
+    background: none;
+    border: none;
+    padding: 0 20px 0 30px;
+    align-self: center;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .logo {
+    align-self: center;
+    width: 104px;
+    height: 46px;
+    padding: 16px 0;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a {
+    display: flex;
+    text-decoration: none;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e2e2e;
+    align-self: center;
+    text-decoration: none;
+  }
+  .container .header-wrapper-mobile .header-block-mobile a img {
+    align-self: center;
+  }
+  .container .header-wrapper-mobile .header-block-mobile .language {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #2e2e2e;
+    align-self: center;
+    background: none;
+    border: none;
+    padding: 0 30px 0 16px;
+  }
   .container .header-wrapper {
     display: none;
     margin: 5.73vw auto 0 auto;
@@ -1627,7 +1681,7 @@ video {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 15.365vw auto 6.51vw 2.605vw;
+    margin: 5.208vw auto 6.51vw 2.605vw;
   }
   .section1-wrapper .wrapper-column .first-image {
     width: 37.76vw;
@@ -1680,7 +1734,7 @@ video {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 15.365vw;
+    top: 5.2vw;
     left: 54.427vw;
     width: 45.573vw;
     height: 46.094vw;
@@ -1777,9 +1831,12 @@ video {
     border: 1px solid #2e2e2e;
     border-radius: 100%;
     cursor: pointer;
+     display: flex;
+  justify-content: center;
   }
   .section2-wrapper .video-button .wrapper img {
     padding: 2.735vw;
+    align-self: center;
   }
   .section2-wrapper .video-button .wrapper:hover {
     background: #ffe588;
@@ -1949,7 +2006,7 @@ video {
   }
   .section5-wrapper h2 {
     text-align: left;
-    margin: 0 0 6.51vw 0;
+    margin: 0 0 6.51vw 3.906vw;
   }
   
   .swiper-slide {
@@ -2202,7 +2259,7 @@ video {
     margin: 0 0 13.02vw 0;
   }
   .section8-wrapper h2 {
-    margin: 0 0 6.51vw 0;
+    margin: 0 0 6.51vw 3.906vw;
   }
   .section8-wrapper .swiper-slide-wrapper {
     margin: 0 0 0 4.037vw;
