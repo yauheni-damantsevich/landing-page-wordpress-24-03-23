@@ -72,6 +72,7 @@
         },
       });
     </script>
+    <?php wp_head(); ?>
   </head>
   <body>
     <header>
@@ -154,7 +155,9 @@
               alt="Studio"
             />
             <div class="wrapper-column">
-              <div class="description-wrapper"></div>
+              <div class="description-wrapper">
+                <?php echo get_post_field('post_content', 6); ?>
+              </div>
               <button class="video-button">
                 <p>Посмотрите видео о нашем салоне</p>
                 <div class="wrapper">
